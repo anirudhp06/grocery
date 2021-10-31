@@ -8,3 +8,4 @@ If you have any doubts about this program please do contact me, my reddit userna
 
 
 This program outputs/creates a local file with name of current date and time at the time of executing the program, the file will be created in location where ur python file is present.
+Also the information will be appended to file only when total bill is calculated, so make sure to calculate total bill if you want to log the things.
