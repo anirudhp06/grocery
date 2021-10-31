@@ -111,10 +111,11 @@ class grocery:
 
             elif self.choice==6:
                 print("Program Terminated")
-		self.file.close()
+                self.file.close()
                 sys.exit()
             else:
                 print("Try Again")
 
 obj=grocery()
 obj.input()
+
