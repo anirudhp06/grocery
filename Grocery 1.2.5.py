@@ -8,7 +8,8 @@ import datetime#Required For file generation
 class grocery:
     today=datetime.date.today()#To fetch the date 
     file=open("{}.txt".format(today),"a+")#Will create a file with corresponding date
-    file.write("{} Loggigng of expenditure started\n\n".format(datetime.datetime.now()))#First Line of the file
+    file.write("{} Loggigng of expenditure started\n\n"
+    .format(datetime.datetime.now()))#First Line of the file
     a=[]#To store Name of Items
     b=[]#To store rate of corresponding Items
     bill=0
@@ -111,7 +112,7 @@ class grocery:
 
             elif self.choice==6:
                 print("Program Terminated")
-		self.file.close()
+                self.file.close()
                 sys.exit()
             else:
                 print("Try Again")
